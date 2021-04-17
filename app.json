@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "Online Cinema",
+    "slug": "online-cinema-mobile",
+    "privacy": "public",
+    "version": "1.0.1",
+    "orientation": "portrait",
+    "icon": "./assets/rn-icon.png",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "splash": {
+      "image": "./assets/rn-splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#242832"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.fannestydev.online-cinema-mobile",
+      "buildNumber": "1.0.1"
+    },
+    "android": {
+      "package": "com.fannestydev.online-cinema-mobile",
+      "versionCode": 1
+    },
+    "web": {
+      
+    }
+  }
+}
